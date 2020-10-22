@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 3.481 s <<< FAILURE! - in runners.TestRunner
+the Authorized user can Add and Remove a book.(End to End Tests for ToolsQA's Book Store API)  Time elapsed: 2.97 s  <<< ERROR!
+javax.net.ssl.SSLException: Certificate for <bookstore.toolsqa.com> doesn't match any of the subject alternative names: [www.bookstore.toolsqa.com]
+
+the Authorized user can Add and Remove a book.(End to End Tests for ToolsQA's Book Store API)  Time elapsed: 2.971 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "the book is added" is undefined. You can implement it using tne snippet(s) below:
+
+@Then("the book is added")
+public void the_book_is_added() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@Then("the book is removed")
+public void the_book_is_removed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+the Authorized user can Add and Remove a book.(End to End Tests for ToolsQA's Book Store API)  Time elapsed: 2.972 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "the book is removed" is undefined. You can implement it using tne snippet(s) below:
+
+@Then("the book is removed")
+public void the_book_is_removed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
